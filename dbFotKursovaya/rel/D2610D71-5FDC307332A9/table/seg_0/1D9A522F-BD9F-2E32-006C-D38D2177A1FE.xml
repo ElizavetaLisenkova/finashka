@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D9A522F-BD9F-2E32-006C-D38D2177A1FE" name="Труппаv2">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>23216C07-E795-6637-9E7F-6E428871124C</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id2" id="91775B1E-55FF-5ACB-F289-A612615452CC">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>AA6ABA5C-DA84-AFAC-1972-79D0F6393F04</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_актера" id="B4AD4ECE-5F46-F785-0C71-5E984E04BE7D">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>2FC57183-7A96-6404-CD11-71D492426261</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A48E22BB-5691-025C-E7F2-FD907728E636" name="Труппа_PKv2">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>4078CF92-388B-A8AC-CADB-38D83EA60196</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91775B1E-55FF-5ACB-F289-A612615452CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

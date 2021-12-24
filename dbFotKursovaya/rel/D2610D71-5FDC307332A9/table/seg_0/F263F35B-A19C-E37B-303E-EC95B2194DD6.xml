@@ -1,0 +1,214 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F263F35B-A19C-E37B-303E-EC95B2194DD6" name="Представлениеv1">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>077666BB-0281-0411-6EA8-2D88423CE1E9</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id2" id="73C58834-8C50-3830-E434-3F45E14680CC">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>37389547-6943-7978-5C58-42DBD765F78B</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Название2" id="050CB66A-956D-947C-84B6-696CB7E03F83">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>526C85DA-518F-C190-F47E-F9147160574B</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Дата2" id="748534CB-1665-21D1-C647-A92D656D4477">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>8DE2201A-4D98-FC65-5EAF-9D10FC321D40</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Время2" id="4CDDF3F4-9057-E72D-A674-88C096B090E2">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>68F5509B-A4AF-6177-0F03-708B34C2E027</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Труппа_id1" id="46338328-199B-4859-2435-B3F4BC0E0667">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>C972741C-8694-B265-6289-54E0CC17BC4E</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Зал_id1" id="663C3DD2-8156-F0A1-4CEA-693A1DAA59D4">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>97C328A3-D07E-C22F-7042-71CDFF8D53CF</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Труппа_id4" id="20D6D46C-D645-62ED-7D7B-4A228C8FEA78">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:16:13 UTC</createdTime>
+<generatorID>FEBAD46A-2879-0F24-6FF1-7E89BD95695C</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2182018C-3FBE-CD7F-EE58-1C1A8A9064CA" referredColumn="91775B1E-55FF-5ACB-F289-A612615452CC"/>
+</associations>
+</Column>
+<Column name="Зал_id4" id="B653515D-21F7-BF74-1806-3A918C4FF3F3">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:16:13 UTC</createdTime>
+<generatorID>99DC0A81-7629-EA8F-DB07-DED5149BAEDF</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A73EABAC-0E23-3005-249E-A745423DFAAB" referredColumn="03EF1AA3-49A1-217D-663A-D127D1260CF4"/>
+</associations>
+</Column>
+<Column name="Статус2" id="6D7299C0-33DC-C260-273A-A669FF7E5358">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-30 06:52:39 UTC</createdTime>
+<generatorID>B12B0D5A-4595-72FF-6D98-46808D109ABF</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Название1" id="A05FF331-86BF-D85A-928C-22B1758FEB19">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-30 06:52:39 UTC</createdTime>
+<generatorID>920F7CF6-4C41-5B4C-B21A-2C833E01A8FA</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id22" id="2AE8AE95-1977-8F18-DF66-6AE70E66A91B">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-30 06:52:39 UTC</createdTime>
+<generatorID>4B474F1B-6F3C-6733-8AA3-145A450CD884</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Залv1_Название" id="FABDCA16-C4F4-25F8-9E0F-75E648B94A87">
+<createdBy>eelis</createdBy>
+<createdTime>2021-04-01 09:35:28 UTC</createdTime>
+<generatorID>AFBBE36A-4151-90F0-A6EE-AB8B45A94899</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Труппаv2_id" id="991A2FF6-B094-36FE-1AC9-86BECAFF4B22">
+<createdBy>eelis</createdBy>
+<createdTime>2021-04-01 09:35:28 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F12BBAC-421D-BBAE-EF39-0EC0C970929F" referredColumn="ED54D9BB-5D5D-ACD4-6E86-8EF52DC5CB29"/>
+</associations>
+</Column>
+<Column name="id1" id="AD770237-B312-25AA-2E1B-17486F0088AF">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:42:08 UTC</createdTime>
+<generatorID>D95D9AA3-AB5B-AC24-DC38-108A514D4C8C</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2ABC260D-A37B-DCBF-D773-FBE5C30E8C0B" referredColumn="633DD862-8757-2AFD-06F7-EC1985D48E62"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93465DBA-A519-F49C-51A6-74D9DFB20423" name="Представление_PKv2">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>AD34AF86-420F-4403-0D5B-81271A36101F</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73C58834-8C50-3830-E434-3F45E14680CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA7C4A70-99DC-4D58-8B26-5AEB1AE8E0DD" name="Представление_Труппа_FK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:16:13 UTC</createdTime>
+<generatorID>9DDFBA9B-1245-F062-B8D9-BDC3C8E8598B</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20D6D46C-D645-62ED-7D7B-4A228C8FEA78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB5B4039-E74B-E1B5-EA97-0849AEA0B341" name="Представление_Зал_FK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:16:13 UTC</createdTime>
+<generatorID>5B7A618D-13EA-31AA-20D1-4D58E577B204</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B653515D-21F7-BF74-1806-3A918C4FF3F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96CC1497-1928-BDDF-1618-D23D24979832" name="Представление_Труппаv2_FK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-30 06:52:39 UTC</createdTime>
+<generatorID>EA09891A-6B2E-C1DD-FEDC-792BDD35637E</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="991A2FF6-B094-36FE-1AC9-86BECAFF4B22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6B010F2-BA11-5133-308A-0AA81DBFE556" name="Представление_Залv1_FK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-04-01 09:35:28 UTC</createdTime>
+<generatorID>D0729382-7DF7-4DA1-6256-CF0E3EAB925D</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD770237-B312-25AA-2E1B-17486F0088AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

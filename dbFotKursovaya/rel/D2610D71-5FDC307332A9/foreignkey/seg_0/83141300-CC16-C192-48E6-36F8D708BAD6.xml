@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="83141300-CC16-C192-48E6-36F8D708BAD6" containerWithKeyObject="DF201BD9-B231-10A5-0625-0C629C42D75B" localFKIndex="D7F2B381-F967-DAA2-FF3E-09B03B1A4E82" name="Представление_Зал_FK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:43:02 UTC</createdTime>
+<generatorID>D0729382-7DF7-4DA1-6256-CF0E3EAB925D</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<referredTableLongName>Зал</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CB741D59-707E-B88C-C475-0F5BEB55E873</referredTableID>
+<keyObject>7EC45125-3AD4-8199-20AB-F6412C2EF250</keyObject>
+<referredKeyID>7EC45125-3AD4-8199-20AB-F6412C2EF250</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C185BB0B-90B7-8E4C-A104-CAB615B6C7C5" name="Актерv1">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:42:08 UTC</createdTime>
+<generatorID>470723DB-EDC5-D6A6-F59E-D344B01E468E</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id2" id="6E0A7914-4AF5-DCC5-53C8-98DF97E49AD2">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:42:08 UTC</createdTime>
+<generatorID>16F69A82-49E2-88CF-FA4A-9B599E1E59F9</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Труппа_id3" id="D7A444DC-6E4B-8D61-AEB0-1690E93CC539">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:42:08 UTC</createdTime>
+<generatorID>55F8E674-5F1C-4D6D-7795-D617C70A0220</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ФИО2" id="C5CEAB93-FB29-8309-B6EC-74DA97838E84">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:42:08 UTC</createdTime>
+<generatorID>5AB0E2E7-5005-4288-5899-650BB840091E</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id1" id="FC4058F1-9494-8652-6298-E72DD40BA8DC">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:42:08 UTC</createdTime>
+<generatorID>2110A4A7-7004-81CA-4D1C-46F0E6F0FAA7</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C19ABD8-0C79-C505-DB30-422EDD75F40B" name="Актер_PKv1">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:42:08 UTC</createdTime>
+<generatorID>77492B7A-283B-7966-B843-5427EA0D0428</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E0A7914-4AF5-DCC5-53C8-98DF97E49AD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8756C003-8629-FBA5-3841-1861019ADDC5" name="Актер_Труппаv1_FK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:42:08 UTC</createdTime>
+<generatorID>BCBA5719-A26B-FDCC-A035-15F02C6FD4FC</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

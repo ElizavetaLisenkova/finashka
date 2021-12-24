@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03EE332B-ADAF-83F8-C261-945832440054" name="Билет">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:43:02 UTC</createdTime>
+<generatorID>909251DA-7370-F12E-9873-3C799B8553B5</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9C4227D3-DC40-439F-2CF9-279B22C7025B">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:43:02 UTC</createdTime>
+<generatorID>28397632-D169-339B-DCBB-22F1B8C763FE</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Цена" id="BA84AFE1-39F7-FB0F-6576-1A0C0ECF3180">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:43:02 UTC</createdTime>
+<generatorID>B5821770-8748-E4DE-3EE8-CB9E97010F11</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Представление_id" id="92CC2719-9B28-2CCC-D9C8-AD228DC5FBED">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:43:02 UTC</createdTime>
+<generatorID>A58CC061-C19B-72E5-970E-617E8969C0BB</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Место" id="5C9730EC-D81C-5C48-12FA-A8DF8A3CDCCB">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:43:02 UTC</createdTime>
+<generatorID>18A3C211-AE2C-536D-7E9B-127E2C69C18C</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Наличие" id="BBE25946-8B27-853F-50AC-855990CF63DC">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:43:02 UTC</createdTime>
+<generatorID>15B30552-26D2-4731-C810-ADA89E00013E</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Представление_id2" id="8EC6ED57-25D6-2C53-4C35-3CD8BAE8C2FF">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:43:02 UTC</createdTime>
+<generatorID>A7FB520A-21EB-825A-60D2-68CD04EF6440</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D47F13BB-970C-4193-1352-D0C9CDB652FD" referredColumn="BC0BE5FD-EE49-13D7-FDF9-914D5D071372"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="641194E8-2C36-BAB9-BBA5-FE4291093F5D" name="Билет_PK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:43:02 UTC</createdTime>
+<generatorID>59A0CC4A-5C63-FBBB-B421-A62E20CC7BF4</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C4227D3-DC40-439F-2CF9-279B22C7025B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="115658EA-B436-F9CB-EABD-0272F5814756" name="Билет_Представление_FK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:43:02 UTC</createdTime>
+<generatorID>C11A2602-4562-AEA5-B51C-7A27998CC793</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EC6ED57-25D6-2C53-4C35-3CD8BAE8C2FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

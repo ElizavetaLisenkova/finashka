@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B84F4D3-0C39-62AB-721F-9C6A93A22E70" name="Труппа">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 19:40:54 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<engineerTo>
+<item key="D2610D71-8D52-F72D-2F98-5FDC307332A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id " id="0FBAE655-9934-785A-8599-F6E08320A43E">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-30 06:50:14 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<engineerTo>
+<item key="D2610D71-8D52-F72D-2F98-5FDC307332A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Название" id="7E0F4202-605D-04D4-BEC3-8CF029C4A576">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 19:43:46 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<engineerTo>
+<item key="D2610D71-8D52-F72D-2F98-5FDC307332A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7546FCE-A6C5-6005-88BC-0E96B539FD1F" name="Актер PK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 19:43:44 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D2610D71-8D52-F72D-2F98-5FDC307332A9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FBAE655-9934-785A-8599-F6E08320A43E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

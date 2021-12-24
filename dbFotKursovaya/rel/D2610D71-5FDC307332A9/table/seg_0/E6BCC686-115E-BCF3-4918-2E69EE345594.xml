@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6BCC686-115E-BCF3-4918-2E69EE345594" name="Залv2">
+<createdBy>eelis</createdBy>
+<createdTime>2021-04-01 09:35:28 UTC</createdTime>
+<generatorID>D299523A-61E8-B9CF-73D2-C174DB399343</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Название" id="B7D8079C-E976-321F-CAC1-E9567D7C8FC4">
+<createdBy>eelis</createdBy>
+<createdTime>2021-04-01 09:35:28 UTC</createdTime>
+<generatorID>B2EAB46C-69CB-56AD-BE93-2F0E00307244</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Сектор" id="61A8373A-DEE5-4113-390C-B7C878A4228C">
+<createdBy>eelis</createdBy>
+<createdTime>2021-04-01 09:35:28 UTC</createdTime>
+<generatorID>CA691EBF-7500-22B8-AE31-F67E05B64327</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Количество_мест" id="35F80468-8D31-817F-73B6-395F6786E106">
+<createdBy>eelis</createdBy>
+<createdTime>2021-04-01 09:35:28 UTC</createdTime>
+<generatorID>E963A5F5-C953-43BB-CFEB-0F36527BAEA9</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="633DD862-8757-2AFD-06F7-EC1985D48E62">
+<createdBy>eelis</createdBy>
+<createdTime>2021-05-03 19:42:08 UTC</createdTime>
+<generatorID>2B2E91C4-A452-B388-535A-E5F6D05108DF</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00C3BBA8-8DA7-4A87-EEA4-1432B9BFB9DB" name="Залv1_PK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-04-01 09:35:28 UTC</createdTime>
+<generatorID>FD2957EF-637D-6A41-95B0-62A7720C0454</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="633DD862-8757-2AFD-06F7-EC1985D48E62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

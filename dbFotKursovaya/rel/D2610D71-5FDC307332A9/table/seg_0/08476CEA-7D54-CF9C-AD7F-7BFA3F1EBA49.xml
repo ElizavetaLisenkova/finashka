@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08476CEA-7D54-CF9C-AD7F-7BFA3F1EBA49" name="Труппаv1">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>2B84F4D3-0C39-62AB-721F-9C6A93A22E70</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="ED54D9BB-5D5D-ACD4-6E86-8EF52DC5CB29">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>F50997BC-59BA-ACBA-0D7A-AC881FE96B84</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Название" id="498D5B43-AA53-0047-27B9-5C9819E1031E">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>7E0F4202-605D-04D4-BEC3-8CF029C4A576</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id2" id="247441C2-2897-DD9E-22FC-D601519D00D9">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-30 06:52:39 UTC</createdTime>
+<generatorID>0FBAE655-9934-785A-8599-F6E08320A43E</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F702953A-1502-4BFA-43E7-C6E63D1BC382" name="Актер_PKv2">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:10:27 UTC</createdTime>
+<generatorID>B7546FCE-A6C5-6005-88BC-0E96B539FD1F</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED54D9BB-5D5D-ACD4-6E86-8EF52DC5CB29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

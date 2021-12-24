@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="909251DA-7370-F12E-9873-3C799B8553B5" name="Билет">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 19:18:37 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<engineerTo>
+<item key="D2610D71-8D52-F72D-2F98-5FDC307332A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="28397632-D169-339B-DCBB-22F1B8C763FE">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 19:19:41 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<engineerTo>
+<item key="D2610D71-8D52-F72D-2F98-5FDC307332A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Цена" id="B5821770-8748-E4DE-3EE8-CB9E97010F11">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 19:20:03 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<engineerTo>
+<item key="D2610D71-8D52-F72D-2F98-5FDC307332A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Представление_id" id="A58CC061-C19B-72E5-970E-617E8969C0BB">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 19:21:27 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<engineerTo>
+<item key="D2610D71-8D52-F72D-2F98-5FDC307332A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Место" id="18A3C211-AE2C-536D-7E9B-127E2C69C18C">
+<createdBy>eelis</createdBy>
+<createdTime>2021-04-01 09:29:44 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<engineerTo>
+<item key="D2610D71-8D52-F72D-2F98-5FDC307332A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Наличие" id="15B30552-26D2-4731-C810-ADA89E00013E">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 19:21:56 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<engineerTo>
+<item key="D2610D71-8D52-F72D-2F98-5FDC307332A9" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="A7FB520A-21EB-825A-60D2-68CD04EF6440">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:12:42 UTC</createdTime>
+<generatorID>C11A2602-4562-AEA5-B51C-7A27998CC793</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<engineerTo>
+<item key="D2610D71-8D52-F72D-2F98-5FDC307332A9" value="true"/>
+</engineerTo>
+<referedAttribute>37389547-6943-7978-5C58-42DBD765F78B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59A0CC4A-5C63-FBBB-B421-A62E20CC7BF4" name="Билет PK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 19:19:56 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D2610D71-8D52-F72D-2F98-5FDC307332A9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28397632-D169-339B-DCBB-22F1B8C763FE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

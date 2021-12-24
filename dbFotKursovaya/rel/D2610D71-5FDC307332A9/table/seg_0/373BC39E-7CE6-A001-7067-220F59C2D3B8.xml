@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="373BC39E-7CE6-A001-7067-220F59C2D3B8" name="Relation_1">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:16:13 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Актер_id" id="6A6679B4-75F3-763D-24F8-54D406EB2B7A">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:16:13 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF1FACCC-CA5E-111E-A3FD-61F38B61D4F7" referredColumn="ED54D9BB-5D5D-ACD4-6E86-8EF52DC5CB29"/>
+</associations>
+</Column>
+<Column name="Труппа_id" id="DAE9E835-04C7-F4BC-7740-019BD10368E7">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:16:13 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDA2227F-5F23-5F9C-B7AF-303F000CB225" referredColumn="91775B1E-55FF-5ACB-F289-A612615452CC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEA4BF7F-5D98-9889-7064-7F1FD96912E2" name="Relation_1_PK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:16:13 UTC</createdTime>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A6679B4-75F3-763D-24F8-54D406EB2B7A"/>
+<colUsage columnID="DAE9E835-04C7-F4BC-7740-019BD10368E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD5ACA7D-8925-5936-DF64-B67B54D281E5" name="Relation_1_Актер_FK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:16:13 UTC</createdTime>
+<generatorID>3D838E2D-52DD-A81D-C118-4977FF06C47C</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A6679B4-75F3-763D-24F8-54D406EB2B7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4638EF6B-469B-299A-CB9E-CE339FB88FAC" name="Relation_1_Труппа_FK">
+<createdBy>eelis</createdBy>
+<createdTime>2021-03-25 20:16:13 UTC</createdTime>
+<generatorID>3D838E2D-52DD-A81D-C118-4977FF06C47C</generatorID>
+<ownerDesignName>dbFotKursovaya</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAE9E835-04C7-F4BC-7740-019BD10368E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
